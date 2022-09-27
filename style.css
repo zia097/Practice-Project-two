@@ -1,0 +1,157 @@
+*{
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+header{
+    background-color: #2d25a0;
+    padding-top: 2rem;
+}
+.wrapper{
+    width: 1200px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+} 
+img{
+    width: 100%;
+    display: block;
+}
+/* nav */
+nav{
+    /* display: flex; */
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px 20px;
+}
+nav ul li a{
+
+text-decoration: none;
+
+text-transform: uppercase;
+
+letter-spacing: 1px;
+
+color: white;
+
+font-weight: bold;
+}
+.login{
+    margin-left: 300px;
+    background: #e13c9f;
+    padding: 0.5rem 1rem;
+}
+/* heading */
+.container{
+    padding: 50px 0;
+}
+.heading{
+    padding: 150px 40px;
+    width: 50%;
+}
+.heading h2{
+    /* text-align: center; */
+    font-size: 35px;
+    color: white;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+}
+.heading a{text-decoration: none;
+    color: white;font-size: 20px;
+    background: #e13c9f;
+    padding: 5px 10px;}
+.head-img{
+    width: 50%;
+}
+.head-img img{}
+.player-intro{
+    background-color: #f3eeee0d;
+}
+.container-2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+.player{
+    width: 32%;
+    /* height: 442px; */
+    background-color: #f3f2f2;
+    margin: 8px;
+    /* padding: 10px; */
+    box-shadow: 5px 5px 10px #ddd;
+}
+.player img{
+    margin: 12px auto;
+    width: 90%;
+}
+.player h2{
+    font-size: 30px;
+    padding-left: 20px;
+    text-transform: capitalize;
+}
+.player p{
+    font-size: 20px;
+    padding-left: 20px;
+}
+/* content */
+.content{
+    margin-top: 100px;
+}
+.content-text{
+    width: 40%;
+}
+.content-text h2{
+    text-transform: capitalize;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.content-text p{
+    font-size: 21px;
+}
+.content-text a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #e13c9f;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 700;
+}
+footer{
+}
+.flex-img{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.copyright{
+    position: relative;
+    width: 50%;
+}
+.copyright h2{
+    position: absolute;
+    bottom: 1px;
+    right: 5px;
+}
+.flex-img span{
+    position: absolute;
+    bottom: 64px;
+    right: 188px;
+}
+.flex-img span i{margin-left: 1rem;}
+
+
+.half-img{
+    background-image: url(./image/two-football-players-different-teams-600w-1725953053.webp);
+    width: 50%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
